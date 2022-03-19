@@ -1,0 +1,27 @@
+void main() {
+ 
+  print ("Question 13) Find the largest and smallest number in an unsorted integer array?");
+  print ("\n*****************************************************************************");
+  
+   var myList = [121, 12, 33, 14, 3];
+  
+  var largestvalue = myList[0];
+  var smallestvalue = myList[0];
+  
+  for (var i = 0; i < myList.length; i++) {
+      
+    if (myList[i] > largestvalue) {
+      largestvalue = myList[i];
+    }
+      
+    if (myList[i] < smallestvalue) {
+      smallestvalue = myList[i];
+    }
+  }
+  
+print ("\nTHE ANSWER FOR SMALLEST VALUE AND LARGEST VALUE ARE GIVEN BELOW");
+  print ("\n");
+  print("Smallest value in the list is : $smallestvalue");
+  print("Largest value in the list is : $largestvalue");
+  
+}

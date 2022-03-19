@@ -1,0 +1,11 @@
+void main() {
+  
+  print ("Qusetion 11)How are duplicates removed from a given array? [Ahmed, Bilal,");
+  print ("Muhammad, Owais, Muhmmad, Ali, Ahmed]");
+  print ("\n*************************************************************************");
+  final List <dynamic> nameList = ["Ahmed", "Bilal", "Muhammad", "Owais", "Muhmmad", "Ali", "Ahmed"];
+  final namelist = nameList.toSet().toList();
+  print ("\nTHE ANSWER IS: ${namelist}");
+  print ("\n                  *****THE END OF QUESTION 11*****");
+  
+}

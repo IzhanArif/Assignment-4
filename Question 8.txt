@@ -1,0 +1,59 @@
+void main() {
+  
+  print ("Question 8. Write a program to create a calculator for +, -, *, / & % using if");
+  print ("statements. Take the following input:");
+  print ("\na. First number Second number");
+  print ("b. Operation (+, -, *, /, %)");
+  print ("\nCompute & show the calculated result to user.");
+  print ("\n******************************************************************************");
+  var firstnumber = 25;
+  var secondnumber = 45;
+  if (firstnumber + secondnumber == 70){
+    print ("\n1. THE ANSWER OF PLUS OPERATOR IS CORRECT, i.e. ${firstnumber+secondnumber} ");
+  }
+  else {
+    print ("WRONG ANSWER");
+  }
+  
+
+  firstnumber = 25;
+  secondnumber = 45;
+  if (firstnumber - secondnumber  == -20){
+    print ("\n2. THE ANSWER OF SUBTRACT OPERATOR IS CORRECT, i.e. ${firstnumber-secondnumber} ");
+    }
+  else {
+    print ("INCORRECT ANSWER");
+  }
+  
+  
+  firstnumber = 25;
+  secondnumber = 45;
+  if (firstnumber * secondnumber  == 1125){
+    print ("\n3. THE ANSWER OF MULTIPLICATION OPERATOR IS CORRECT, i.e. ${firstnumber*secondnumber} ");
+    }
+  else {
+    print ("WRONG ANSWER");
+  }
+  
+  
+  firstnumber = 25;
+  secondnumber = 45;
+  if (secondnumber / firstnumber  == 1.8){
+    print ("\n4. THE ANSWER OF DIVISION OPERATOR IS CORRECT, i.e. ${secondnumber/firstnumber} ");
+    }
+  else {
+    print ("INCORRECT ANSWER");
+  }
+  
+  
+  firstnumber = 25;
+  secondnumber = 45;
+  if (firstnumber % secondnumber  == 25){
+    print ("\n5. THE ANSWER OF REMAINDER OPERATOR IS CORRECT, i.e. ${firstnumber%secondnumber} ");
+    }
+  else {
+    print ("WRONG ANSWER");
+  }
+  
+  print ("\n                *****THE END OF QUESTION8*****");
+}

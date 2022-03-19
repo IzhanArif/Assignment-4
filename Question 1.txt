@@ -1,0 +1,15 @@
+void main() {
+  
+  print ("Question 1) How to duplicate repeating items inside a Dart list?");
+  print ("Problem");
+  print ("Consider the code:");
+  print ("final List<Dynamic> _nameList = [Bilal, Bilal, Bilal, Owais, Owais, Owais]");
+  print ("What can to be done in order to not repeat Bilal and Owais multiple times?");
+  print ("\n************************************************************************");
+  
+  final List <dynamic> nameList = ["Bilal", "Bilal", "Bilal", "Owais", "Owais", "Owais"];
+  final namelist = nameList.toSet().toList();
+  print ("\nTHE ANSWER IS: ${namelist}");
+  print ("\n                  *****THE END OF QUESTION 1*****");
+  
+}

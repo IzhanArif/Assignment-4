@@ -1,0 +1,15 @@
+void main() {
+  
+  print ("Question 5) Write a program to print items of the following array using for loop:");
+  print ("fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”].");
+  print ("\n******************************************************************************");
+  print ("\nTHE ANSWER IS GIVEN BELOW IN ARRAY:");
+  print ("*************************************");
+  var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+  for (var i in fruits){
+  print (i);  
+  }
+  
+  print ("\n              *****THE END OF QUESTION 5*****");
+  
+}
